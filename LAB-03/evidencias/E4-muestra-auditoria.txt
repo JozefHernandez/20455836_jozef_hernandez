@@ -1,0 +1,7 @@
+ id_evento |            momento            | usuario_sesion |   aplicacion   | operacion | id_cliente 
+-----------+-------------------------------+----------------+----------------+-----------+------------
+         4 | 2026-11-27 03:46:37.28152+00  | postgres       | psql           | INSERT    |          8
+         3 | 2026-11-27 03:46:37.28152+00  | postgres       | psql           | INSERT    |          7
+         2 | 2026-11-18 06:35:00.580808+00 | app_ventas     | app-ventas-web | UPDATE    |          1
+         1 | 2026-11-18 06:35:00.55453+00  | app_ventas     | app-ventas-web | UPDATE    |          1
+(4 rows)

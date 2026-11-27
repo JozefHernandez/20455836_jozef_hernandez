@@ -1,0 +1,8 @@
+columna,tipo,longitud,acepta_nulos,descripcion
+id,bigint,,NO,Identificador interno del cliente. Generado por el sistema.
+nombre,character varying,120,NO,Nombre completo. Dato personal identificador directo.
+correo,character varying,120,NO,Correo de contacto. Dato personal. Uso: notificaciones al cliente.
+rfc,character varying,13,YES,RFC del cliente. Dato personal. Uso: facturación. Cambios auditados en auditoria.cambios_clientes.
+telefono,character varying,15,YES,Teléfono de contacto. Dato personal. Uso: contacto con el cliente.
+ciudad,character varying,60,YES,Ciudad del cliente. Uso: logística y reportes por zona.
+segmento,character varying,20,YES,
